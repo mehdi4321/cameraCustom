@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:id="@+id/frameLayout"
+    tools:context=".saveImageCameraCustom.TransferImageActivity">
+
+
+
+        <ImageView
+            android:id="@+id/iv_transfer_save"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@color/colorPrimaryDark"
+            />
+
+        <ImageView
+            android:id="@+id/iv_transfer_frame"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/frame" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8888"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/iv_transfer_sdCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_sd_card_white_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_transfer_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_cancel_white_24dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>
